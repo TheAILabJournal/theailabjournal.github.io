@@ -1,0 +1,291 @@
+---
+layout: default
+title: Home
+---
+
+
+<div class="page">
+    <!-- NAVBAR -->
+    <header class="hero">
+        <nav class="nav container">
+        <div class="nav__brand">
+            <!-- Replace src with your actual logo file in /assets -->
+            <img
+            src="assets/logo.png"
+            alt="The AI Lab Journal logo"
+            class="nav__logo"
+            />
+            <span class="nav__title">The AI Lab Journal</span>
+        </div>
+        <div class="nav__links">
+            <a href="#episodes">Episodes</a>
+            <a href="#materials">Study materials</a>
+            <a href="#about">About</a>
+        </div>
+        </nav>
+
+        <!-- HERO CONTENT -->
+        <section class="hero__content container">
+        <div class="hero__text">
+            <p class="hero__tagline">AI • Math • Machine learning</p>
+            <h1 class="hero__title">
+            Understand the math behind<br />
+            modern AI, step by step.
+            </h1>
+            <p class="hero__subtitle">
+            I’m a developer documenting my journey to understand the math behind
+            neural networks, transformers, and other machine learning models.
+            Here you’ll find videos, slides, and notes you can reuse to study too.
+            </p>
+
+            <div class="hero__actions">
+            <a
+                class="btn btn--primary"
+                href="https://www.youtube.com/@TheAILabJournal"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ▶ Visit the YouTube channel
+            </a>
+            <a href="#materials" class="btn btn--ghost">
+                📚 Jump to the study materials
+            </a>
+            </div>
+
+            <p class="hero__note">
+            Current topic:
+            <strong>Vectors, shapes &amp; matrix multiplication (linear algebra foundations)</strong>
+            </p>
+        </div>
+
+        <div class="hero__card">
+            <div class="hero-card__header">
+            <span class="hero-card__label">Featured video</span>
+            <span class="hero-card__pill">The AI Lab Journal Podcast</span>
+            </div>
+
+            <!-- Replace src with your real video ID -->
+            <div class="hero-card__video">
+            <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                title="The AI Lab Journal – Featured Episode"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+            </div>
+
+            <div class="hero-card__body">
+            <h2 class="hero-card__title">
+                Topic 1 – Vectors, shapes &amp; matrix multiplication
+            </h2>
+            <p class="hero-card__text">
+                A beginner-friendly walkthrough of vectors, matrices, shapes, and
+                how matrix multiplication works – using the same math that shows up
+                inside many modern AI models (including attention).
+            </p>
+            </div>
+        </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- EPISODES SECTION -->
+        <section id="episodes" class="section section--alt">
+        <div class="container">
+            <div class="section__header">
+            <h2>Episodes</h2>
+            <p>
+                All videos and audio episodes from
+                <strong>The AI Lab Journal</strong> in one place.
+            </p>
+            </div>
+
+            <div class="grid grid--episodes">
+            <!-- Episode card – NotebookLM video overview -->
+            <article class="card">
+                <div class="card__tag">Video</div>
+                <h3 class="card__title">
+                NotebookLM overview – “Attention Is All You Need”
+                </h3>
+                <p class="card__body">
+                A high-level overview generated with Google NotebookLM,
+                summarizing the original transformer paper to set the stage
+                for the math deep dives in AI and deep learning.
+                </p>
+                <div class="card__footer">
+                <a
+                    href="https://www.youtube.com/watch?v=VIDEO_ID_OVERVIEW"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card__link"
+                >
+                    Watch on YouTube →
+                </a>
+                </div>
+            </article>
+
+            <!-- Episode card – Audio playlist -->
+            <article class="card">
+                <div class="card__tag">Audio series</div>
+                <h3 class="card__title">
+                The AI Lab Podcast – Audio overview of the paper
+                </h3>
+                <p class="card__body">
+                A playlist with audio-only overviews of “Attention Is All You Need”,
+                ideal for listening while commuting or cooking.
+                </p>
+                <div class="card__footer">
+                <a
+                    href="https://www.youtube.com/playlist?list=PLAYLIST_ID_AUDIO"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card__link"
+                >
+                    Open the playlist →
+                </a>
+                </div>
+            </article>
+
+            <!-- Episode card – Study sessions -->
+            <article class="card">
+                <div class="card__tag">Study session</div>
+                <h3 class="card__title">
+                Topic 1 – Vectors, shapes &amp; matrix multiplication
+                </h3>
+                <p class="card__body">
+                A more hands-on session where we go through the math slowly,
+                connecting vectors and matrices to what actually happens in
+                modern AI models (including attention).
+                </p>
+                <div class="card__footer">
+                <a
+                    href="#materials"
+                    class="card__link"
+                >
+                    See the slides &amp; notes →
+                </a>
+                </div>
+            </article>
+            </div>
+        </div>
+        </section>
+
+        <!-- STUDY MATERIALS SECTION -->
+        <section id="materials" class="section">
+        <div class="container">
+            <div class="section__header">
+            <h2>Study materials</h2>
+            <p>
+                Slides, PDFs, and notes you can download and reuse. Think of this
+                as the “lab notebook” for the series.
+            </p>
+            </div>
+
+            <div class="grid grid--materials">
+            <!-- Material card – Topic 1 theory PDF -->
+            <article class="card card--material">
+                <div class="card__tag">Topic 1</div>
+                <h3 class="card__title">
+                Topic 1 – Vectors, shapes &amp; matrix multiplication
+                </h3>
+                <p class="card__body">
+                PDF slides covering scalars, vectors, matrices, dimensions,
+                shapes, dot products, and the rules of matrix multiplication.
+                </p>
+                <ul class="card__list">
+                <li>Scalar, vector, and matrix definitions</li>
+                <li>Shape notation and intuition</li>
+                <li>Matrix multiplication rules &amp; inner dimensions</li>
+                </ul>
+                <div class="card__footer card__footer--split">
+                <!-- Replace href with the raw GitHub or GitHub Pages URL to your PDF -->
+                <a
+                    href="day_01_theory.pdf"
+                    class="card__link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ⬇ Download the slides (PDF)
+                </a>
+                <!-- Optional: link to NotebookLM / Colab once you have it public -->
+                <a
+                    href="#"
+                    class="card__link card__link--muted"
+                >
+                    Open interactive notes (soon)
+                </a>
+                </div>
+            </article>
+
+            <!-- Placeholder for future topics -->
+            <article class="card card--material card--placeholder">
+                <div class="card__tag">Soon</div>
+                <h3 class="card__title">Topic 2 – Q, K, V &amp; attention scores</h3>
+                <p class="card__body">
+                Coming next: a visual and intuitive breakdown of
+                <code>Q @ Kᵀ</code>, scaling by <code>√d<sub>k</sub></code>,
+                and turning scores into attention weights with softmax,
+                connecting these ideas to the linear algebra foundations from Topic 1.
+                </p>
+                <div class="card__footer">
+                <span class="chip">Work in progress</span>
+                </div>
+            </article>
+            </div>
+        </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section section--alt">
+        <div class="container section__split">
+            <div class="section__column">
+            <h2>About The AI Lab Journal</h2>
+            <p>
+                I’m Ronaldo, a developer who wants to be able to read and truly
+                understand the math in AI research papers, not just run the code.
+            </p>
+            <p>
+                This project is my way of learning in public: every video and PDF
+                here started as my own study notes, cleaned up so other people can
+                reuse them. I started with the transformer paper
+                <strong>“Attention Is All You Need”</strong>, but the goal is bigger:
+                to build the math foundations for modern AI in general – linear
+                algebra, probability, optimization, and how they show up in
+                deep learning models.
+            </p>
+            <p>
+                If you’re also a developer who feels “okay with coding but shaky
+                with math”, this lab is for you. We’ll go slowly, ask “stupid”
+                questions, and build intuition step by step, with a focus on the
+                math that really appears in AI and machine learning.
+            </p>
+            </div>
+            <div class="section__column section__column--highlight">
+            <h3>How to follow the journey</h3>
+            <ul class="list">
+                <li>
+                Start with
+                <strong>Topic 1 – Vectors, shapes &amp; matrix multiplication</strong>
+                (linear algebra foundations).
+                </li>
+                <li>Subscribe to the YouTube channel for new episodes.</li>
+                <li>Revisit this page for updated PDFs and future topics.</li>
+            </ul>
+            <a
+                class="btn btn--primary btn--full"
+                href="https://www.youtube.com/@TheAILabJournal"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Subscribe on YouTube
+            </a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+</div>
+
+
+
